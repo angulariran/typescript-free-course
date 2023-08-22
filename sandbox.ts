@@ -1,10 +1,29 @@
-let checkout:number=-65;
-let firstName:string='sajjadmaneshi';
-let isRegister:boolean=true;
-let age=28;
+//array
+let numbers=[1,3,5,7,8];
+numbers.push(9);
+numbers.pop();
+const specificNum=numbers[2];
 
-const sum = (a:number,b:number)=>{
-  return (a+b)*2;
+let names= ['sajjad','ali','hassan'];
+
+let mixed=[1,'salam',true];
+mixed.push(2);
+mixed.push('salam');
+
+//object
+let user:{
+  name:string,
+  family:string,
+  height:number,
+  age:number
 }
 
-console.log(sum(3,5));
+
+user={
+  name:'sajjad',
+  family:'maneshi',
+  height:150,
+  age:10,
+
+}
+
